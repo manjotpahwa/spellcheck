@@ -1,0 +1,4 @@
+FROM python:3
+ADD spellcheck.py /
+CMD [ "python", "./spellcheck.py" ]
+
